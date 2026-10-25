@@ -4,6 +4,18 @@
 
 
 
+:root {
+  --bs-primary-rgb: 46, 72, 58;
+  --bs-body-bg: #f6f3ed;
+  --bs-light-rgb: 246, 243, 237;
+}
+
+.btn-primary {
+  --bs-btn-bg: #2c4939;
+  --bs-btn-border-color: #2c4939;
+  --bs-btn-hover-bg: #233b2e;
+  --bs-btn-hover-border-color: #233b2e;
+}
 
 
 .navbar-brand {
@@ -38,8 +50,8 @@ h1, h2, h3 {
   background-size: cover;
 }
 
-#cta .d-flex {
-  height: 400px;
+#cta {
+  min-height: 400px;
 }
 
 section:not(#hero):not(#cta){
